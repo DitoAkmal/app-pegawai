@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 <head>
     <meta charset="UTF-8">
     <title>@yield('title', 'App Pegawai')</title>
@@ -10,8 +11,9 @@
         <nav>
             <ul>
                 <li><a href="{{ url('/employees') }}">Employee</a></li>
-                <li><a href="{{ url('/department') }}">Department</a></li>
+                <li><a href="{{ url('/departments') }}">Departments</a></li>
                 <li><a href="{{ url('/attendance') }}">Attendance</a></li>
+                <li><a href="{{ url('/salaries') }}">Salaries</a></li>
                 <li><a href="{{ url('/report') }}">Report</a></li>
                 <li><a href="{{ url('/settings') }}">Settings</a></li>
             </ul>
